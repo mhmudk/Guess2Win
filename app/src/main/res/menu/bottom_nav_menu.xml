@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home_bottom"
+        android:icon="@drawable/football_bottom"
+
+        android:title="المباريات" />
+    <item
+        android:id="@+id/champoion_bottom"
+        android:icon="@drawable/champion_bottom"
+        android:title="الدوريات" />
+    <item
+        android:id="@+id/rating_bottom"
+        android:icon="@drawable/rating"
+        android:title="الترتيب" />
+    <item
+        android:id="@+id/points_more_bottom"
+        android:icon="@drawable/poinrs_botttom"
+        android:title="نقاط اضافيه" />
+    <item
+        android:id="@+id/more_bottom"
+        android:icon="@drawable/more"
+        android:title="المزيد" />
+
+</menu>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splachScreen">
+
+    <fragment
+        android:id="@+id/splachScreen"
+        android:name="com.example.guess2win.SplachScreen"
+        android:label="fragment_splach_screen"
+        tools:layout="@layout/fragment_splach_screen" >
+
+        <action
+            android:id="@+id/action_splachScreen_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_splachScreen_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepTwo"
+        android:name="com.example.guess2win.BottomNavigation.StepTwo.StepTwo"
+        android:label="fragment_step_two"
+        tools:layout="@layout/fragment_step_two" >
+        <action
+            android:id="@+id/action_stepTwo_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.guess2win.BottomNavigation.Login.LogIn"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_logIn_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepOne"
+        android:name="com.example.guess2win.BottomNavigation.StepOne.StepOne"
+        android:label="fragment_step_one"
+        tools:layout="@layout/fragment_step_one" >
+        <action
+            android:id="@+id/action_stepOne_to_stepTwo"
+            app:destination="@id/stepTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.guess2win.Homepage"
+        android:label="fragment_homepage"
+        tools:layout="@layout/fragment_homepage" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/matches"
+        android:name="com.example.guess2win.HomepageDetails.MatchesandAnticiptions.Matches"
+        android:label="fragment_matches"
+        tools:layout="@layout/fragment_matches" >
+        <action
+            android:id="@+id/action_matches_to_anticiptions"
+            app:destination="@id/anticiptions" />
+    </fragment>
+    <fragment
+        android:id="@+id/cahmpoins"
+        android:name="com.example.guess2win.HomepageDetails.Cahmpoins"
+        android:label="fragment_cahmpoins"
+        tools:layout="@layout/fragment_cahmpoins" />
+    <fragment
+        android:id="@+id/more"
+        android:name="com.example.guess2win.HomepageDetails.More.More"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_more_to_prize"
+            app:destination="@id/prize" />
+        <action
+            android:id="@+id/action_more_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_more_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_more_to_callUsFragment"
+            app:destination="@id/callUsFragment" />
+        <action
+            android:id="@+id/action_more_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_more_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/prize"
+        android:name="com.example.guess2win.HomepageDetails.More.PrizeFragment"
+        android:label="fragment_prize"
+        tools:layout="@layout/fragment_prize" />
+    <fragment
+        android:id="@+id/rating"
+        android:name="com.example.guess2win.HomepageDetails.Rating"
+        android:label="fragment_rating"
+        tools:layout="@layout/fragment_rating" />
+    <fragment
+        android:id="@+id/anticiptions"
+        android:name="com.example.guess2win.HomepageDetails.MatchesandAnticiptions.Anticiptions"
+        android:label="Anticiptions" />
+    <fragment
+        android:id="@+id/callUsFragment"
+        android:name="com.example.guess2win.HomepageDetails.More.CallUsFragment"
+        android:label="fragment_call_us"
+        tools:layout="@layout/fragment_call_us" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.guess2win.HomepageDetails.More.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.guess2win.HomepageDetails.More.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.guess2win.HomepageDetails.More.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/pointsMore"
+        android:name="com.example.guess2win.HomepageDetails.PointsMore"
+        android:label="fragment_points_more"
+        tools:layout="@layout/fragment_points_more" />
+</navigation>

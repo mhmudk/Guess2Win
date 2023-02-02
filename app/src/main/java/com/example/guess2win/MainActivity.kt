@@ -10,19 +10,20 @@ import androidx.navigation.fragment.NavHostFragment
 import com.example.guess2win.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-     lateinit var binding: ActivityMainBinding
+   // lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+       // binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(R.layout.activity_main)
 
     }
-    override fun onBackPressed() {
-        val fragment =
-            this.supportFragmentManager.findFragmentById(R.id.frameLayout)
-        (fragment as? IOnBackPressed)?.onBackPressed()?.not()?.let {
-            super.onBackPressed()
-        }
-    }
+
+//    override fun onBackPressed() {
+//        val fragment =
+//            this.supportFragmentManager.findFragmentById(R.id.frameLayout)
+//        (fragment as? IOnBackPressed)?.onBackPressed()?.not()?.let {
+//            super.onBackPressed()
+//        }
+//    }
 
 }

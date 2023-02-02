@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BottomNavigation.StepTwo.StepTwo">
-
+   >
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="@dimen/_180sdp"
@@ -21,9 +20,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/cairo"
         android:gravity="center"
-
-        android:text="كل ما تجمع نقاط أكثر كل ما كانت فرصتك
-أكبر بالفوز بأفضل الجوائز"
+        android:text="@string/steb2_tv2"
         android:textAlignment="center"
         android:textColor="#575757"
         android:textSize="@dimen/_13ssp"
@@ -43,8 +40,8 @@
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/cairo_semibold"
         android:gravity="center"
-        android:text="اجمع نقاط أكتر"
         android:textColor="#1C1C1C"
+        android:text="@string/steb2_tv1"
         android:textSize="@dimen/_25ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,9 +56,10 @@
         android:layout_height="@dimen/_38sdp"
         android:background="@drawable/button_shape"
         android:fontFamily="@font/cairo_semibold"
-        android:text="ابدأ المشاركة"
+        android:text="@string/button_share"
         android:textAlignment="center"
         android:textColor="@color/white"
+        android:textAllCaps="false"
         android:textSize="@dimen/_13ssp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

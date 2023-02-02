@@ -1,14 +1,14 @@
 package com.example.guess2win
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.example.guess2win.databinding.FragmentSplachScreenBinding
-import com.google.firebase.auth.FirebaseAuth
+import com.example.guess2win.utils.SharedPref
 
 
 class SplachScreen : Fragment() {
@@ -24,12 +24,10 @@ class SplachScreen : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentSplachScreenBinding.inflate(inflater, container, false)
-        val user = FirebaseAuth.getInstance().currentUser
-        if (user == null) {
-          findNavController().navigate(R.id.action_splachScreen_to_logIn)
+        if (SharedPref.getusertoken().isNullOrBlank()) {
+          findNavController().navigate(R.id.action_splachScreen_to_stepOne)
         } else {
             findNavController().navigate(R.id.action_splachScreen_to_homepage)
-
         }
 
         return binding.root

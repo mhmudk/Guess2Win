@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -10,6 +11,22 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/contactus" />
+            <option value="$PROJECT_DIR$/data" />
+            <option value="$PROJECT_DIR$/extrapoints" />
+            <option value="$PROJECT_DIR$/help" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/matches" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/navigation" />
+            <option value="$PROJECT_DIR$/onboarding" />
+            <option value="$PROJECT_DIR$/prize" />
+            <option value="$PROJECT_DIR$/profile" />
+            <option value="$PROJECT_DIR$/rank" />
+            <option value="$PROJECT_DIR$/registertion" />
+            <option value="$PROJECT_DIR$/settings" />
+            <option value="$PROJECT_DIR$/splachscreen" />
+            <option value="$PROJECT_DIR$/utils" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -14,36 +14,50 @@
         <action
             android:id="@+id/action_splachScreen_to_homepage"
             app:destination="@id/homepage" />
+
         <action
-            android:id="@+id/action_splachScreen_to_logIn"
-            app:destination="@id/logIn" />
+            android:id="@+id/action_splachScreen_to_stepOne"
+            app:destination="@id/stepOne" />
     </fragment>
     <fragment
         android:id="@+id/stepTwo"
-        android:name="com.example.guess2win.BottomNavigation.StepTwo.StepTwo"
+        android:name="com.example.guess2win.bottomnavigation.steptwo.StepTwo"
         android:label="fragment_step_two"
         tools:layout="@layout/fragment_step_two" >
         <action
             android:id="@+id/action_stepTwo_to_logIn"
-            app:destination="@id/logIn" />
+            app:destination="@id/logIn"
+            app:enterAnim="@anim/right_to_base"
+            app:exitAnim="@anim/base_to_left"
+            app:popEnterAnim="@anim/right_to_base"
+            app:popExitAnim="@anim/base_to_left" />
     </fragment>
     <fragment
         android:id="@+id/logIn"
-        android:name="com.example.guess2win.BottomNavigation.Login.LogIn"
+        android:name="com.example.guess2win.bottomnavigation.login.LogIn"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/action_logIn_to_homepage"
-            app:destination="@id/homepage" />
+            app:destination="@id/homepage"
+            app:enterAnim="@anim/right_to_base"
+            app:exitAnim="@anim/base_to_left"
+            app:popEnterAnim="@anim/left_to_base"
+            app:popExitAnim="@anim/base_to_right" />
     </fragment>
     <fragment
         android:id="@+id/stepOne"
-        android:name="com.example.guess2win.BottomNavigation.StepOne.StepOne"
+        android:name="com.example.guess2win.bottomnavigation.stepone.StepOne"
         android:label="fragment_step_one"
+
         tools:layout="@layout/fragment_step_one" >
         <action
             android:id="@+id/action_stepOne_to_stepTwo"
-            app:destination="@id/stepTwo" />
+            app:destination="@id/stepTwo"
+            app:enterAnim="@anim/right_to_base"
+            app:exitAnim="@anim/base_to_left"
+            app:popEnterAnim="@anim/left_to_base"
+            app:popExitAnim="@anim/base_to_right" />
     </fragment>
     <fragment
         android:id="@+id/homepage"
@@ -54,7 +68,7 @@
     </fragment>
     <fragment
         android:id="@+id/matches"
-        android:name="com.example.guess2win.HomepageDetails.MatchesandAnticiptions.Matches"
+        android:name="com.example.guess2win.homepagedetails.matches.MatchesFragment"
         android:label="fragment_matches"
         tools:layout="@layout/fragment_matches" >
         <action
@@ -63,12 +77,12 @@
     </fragment>
     <fragment
         android:id="@+id/cahmpoins"
-        android:name="com.example.guess2win.HomepageDetails.Cahmpoins"
+        android:name="com.example.guess2win.homepagedetails.Cahmpoins"
         android:label="fragment_cahmpoins"
         tools:layout="@layout/fragment_cahmpoins" />
     <fragment
         android:id="@+id/more"
-        android:name="com.example.guess2win.HomepageDetails.More.More"
+        android:name="com.example.guess2win.homepagedetails.more.More"
         android:label="fragment_more"
         tools:layout="@layout/fragment_more" >
         <action
@@ -92,41 +106,41 @@
     </fragment>
     <fragment
         android:id="@+id/prize"
-        android:name="com.example.guess2win.HomepageDetails.More.PrizeFragment"
+        android:name="com.example.guess2win.homepagedetails.more.PrizeFragment"
         android:label="fragment_prize"
         tools:layout="@layout/fragment_prize" />
     <fragment
         android:id="@+id/rating"
-        android:name="com.example.guess2win.HomepageDetails.Rating"
+        android:name="com.example.guess2win.homepagedetails.Rating"
         android:label="fragment_rating"
         tools:layout="@layout/fragment_rating" />
     <fragment
         android:id="@+id/anticiptions"
-        android:name="com.example.guess2win.HomepageDetails.MatchesandAnticiptions.Anticiptions"
+        android:name="com.example.guess2win.homepagedetails.matches.Anticiptions"
         android:label="Anticiptions" />
     <fragment
         android:id="@+id/callUsFragment"
-        android:name="com.example.guess2win.HomepageDetails.More.CallUsFragment"
+        android:name="com.example.guess2win.homepagedetails.more.CallUsFragment"
         android:label="fragment_call_us"
         tools:layout="@layout/fragment_call_us" />
     <fragment
         android:id="@+id/helpFragment"
-        android:name="com.example.guess2win.HomepageDetails.More.HelpFragment"
+        android:name="com.example.guess2win.homepagedetails.more.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.guess2win.HomepageDetails.More.ProfileFragment"
+        android:name="com.example.guess2win.homepagedetails.more.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.guess2win.HomepageDetails.More.SettingsFragment"
+        android:name="com.example.guess2win.homepagedetails.more.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/pointsMore"
-        android:name="com.example.guess2win.HomepageDetails.PointsMore"
+        android:name="com.example.guess2win.homepagedetails.PointsMore"
         android:label="fragment_points_more"
         tools:layout="@layout/fragment_points_more" />
 </navigation>

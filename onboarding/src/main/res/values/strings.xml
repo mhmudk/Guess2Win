@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_cline">305791413317-kqacasc0bdljto9vudvh6n3g60tj8r35.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">797880274634994</string>
+    <string name="fb_login_protocol_scheme">fb797880274634994</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="textView2">Keep following with us</string>
+    <string name="textView3">Predict match results</string>
+    <string name="button_continue">Continue</string>
+    <string name="steb2_tv1">Collect more points</string>
+    <string name="steb2_tv2">The more points you collect, the higher your chance of winning prizes</string>
+    <string name="button_share">Start Share</string>
+    <string name="log_tv1">Create your profile</string>
+    <string name="log_tv2">To participate in all categories and watch the videos to reach the first place</string>
+    <string name="log_button_facebook">Facebook</string>
+    <string name="log_button_google">Gmail</string>
+    <string name="info_tv1">More</string>
+    <string name="info_tv2">Mahmoud Khatteb</string>
+    <string name="info_tv3">86 Point</string>
+    <string name="info_tv4">Profile</string>
+    <string name="info_tv5">Settings</string>
+    <string name="info_tv6">Help</string>
+    <string name="info_tv7">contact us</string>
+    <string name="info_tv8">sign out</string>
+    <string name="bottom_home">Home</string>
+    <string name="bottom_rating">rating</string>
+    <string name="bottom_prize">prize</string>
+    <string name="bottom_more">more</string>
+    <string name="championes">Championships</string>
+    <string name="maches">Matches</string>
+    <string name="points">Bonus points</string>
+    <string name="today_calender">today\'s date</string>
+    <string name="help_tv1">Guess 2 Win</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="help_info2">Predict the result now</string>
+    <string name="help_info3">Predict the outcome of the match to win the best results</string>
+    <string name="helptv">Help</string>
+    <string name="helptv2">There is a proven fact from a long time ago that the readable content of a page will distract the reader from focusing on the external form of the text or the form of paragraphs placed on the page he reads. Therefore, the Lorem Ipsum method is used because it gives a natural distribution - to a certain extent - for the characters instead of using "here there is text content, here there is text content", making it look (that is, the letters) as if it were readable text.</string>
+    <string name="callus_tv1">call us</string>
+    <string name="callus_tv2">To contact and inquire</string>
+    <string name="callus_tv3">If you have any question or problem you can></string>
+    <string name="profile_tv1">Profile</string>
+    <string name="profile_tv2">Phone</string>
+    <string name="profile_tv3">Enter Your Phone Number</string>
+    <string name="setting_tv1">Setting</string>
+    <string name="setting_tv2">Night mode</string>
+    <string name="setting_tv3">Notification</string>
+    <string name="setting_tv4">English</string>
+    <string name="champion_tv1">Championships</string>
+    <string name="champion_list_tv2">Premier League</string>
+    <string name="champion_list_tv3">Bundesliga</string>
+    <string name="point_tv1">You can get 5 points through
+  Watch the video a maximum of 3 times a day</string>
+    <string name="point_btn">watching video</string>
+    <string name="matches_tv1">matches</string>
+    <string name="matches_item_tv3">your expectation</string>
+    <string name="matches_item_tv4">your points</string>
+    <string name="leg_tv1">leagues</string>
+    <string name="ratede">High Rating</string>
+</resources>

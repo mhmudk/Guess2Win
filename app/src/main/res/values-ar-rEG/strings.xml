@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="facebook_app_id">797880274634994</string>
+    <string name="fb_login_protocol_scheme">fb797880274634994</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="app_name">Guess2Win</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textView2">تابع معنا بإستمرار</string>
+    <string name="textView3">توقع نتائج المباريات</string>
+    <string name="button_continue">استمرار</string>
+    <string name="steb2_tv1">جمع نقاط أكتر</string>
+    <string name="steb2_tv2">كل ما تجمع نقاط أكثر كل ما كانت فرصتك
+ أكثر بالفوز بجوائزنا</string>
+    <string name="button_share">ابدأ المشاركة</string>
+    <string name="log_tv1">قم بإنشاء ملفك الشخصى</string>
+    <string name="log_tv2">للمشاركة بكافة التصنيفات ولمشاهدة
+الفيديوهات للوصول للمركز الأول</string>
+    <string name="log_button_facebook">فيسبوك</string>
+    <string name="log_button_google">جوجل</string>
+    <string name="info_tv1">المزيد</string>
+    <string name="info_tv2">محمود خطاب</string>
+    <string name="info_tv3">86 نقطة</string>
+    <string name="info_tv4">الملف الشخصي</string>
+    <string name="info_tv5">الأعدادات</string>
+    <string name="info_tv6">المساعدة</string>
+    <string name="info_tv7">اتصل بنا</string>
+    <string name="info_tv8">تسجيل الخروجة</string>
+    <string name="bottom_home">الرئيسية</string>
+    <string name="bottom_rating">تصنيفك</string>
+    <string name="bottom_prize">جوائز</string>
+    <string name="bottom_more">المزيد</string>
+    <string name="championes">البطولات</string>
+    <string name="maches">مباريات</string>
+    <string name="points">نقاط إضافية</string>
+    <string name="today_calender">تاريخ اليوم</string>
+    <string name="help_tv1">Guess 2 Win</string>
+    <string name="button_confirm">تأكيد</string>
+    <string name="help_info2">توقع النتيجة الآن</string>
+    <string name="help_info3">توقع نتيجة المبارة لتكسب أفضل النتائج</string>
+    <string name="google_cline">305791413317-kqacasc0bdljto9vudvh6n3g60tj8r35.apps.googleusercontent.com</string>
+    <string name="helptv">المساعدة</string>
+    <string name="helptv2">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام "هنا يوجد محتوى نصي، هنا يوجد محتوى نصي" فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء.</string>
+    <string name="callus_tv1">اتصل بنا</string>
+    <string name="callus_tv2">للإتصال والاستفسار</string>
+    <string name="callus_tv3">إذا كان لديك أي سؤال أو مشكلة يمكنك
+التواصل معنا بأي وقت</string>
+    <string name="profile_tv1">الملف الشخصي</string>
+    <string name="profile_tv2">الهاتف</string>
+    <string name="profile_tv3">أدخل رقم هاتفك</string>
+    <string name="setting_tv1">الأعدادات</string>
+    <string name="setting_tv2">الوضع الليلي </string>
+    <string name="setting_tv3">الأشعارات</string>
+    <string name="setting_tv4">الأنجليزية</string>
+    <string name="champion_tv1">البطولات</string>
+    <string name="champion_list_tv2">الدوري الآنجليزي</string>
+    <string name="champion_list_tv3">الدوري الألماني</string>
+    <string name="point_tv1">يمكنك الحصول علي 5 النقاط من خلال
+ مشاهدة الفيديو بحد أقصى 3 مرات يوميا</string>
+    <string name="point_btn">مشاهدة الفيديو</string>
+    <string name="matches_tv1">المباريات</string>
+    <string name="matches_item_tv3">توقعك</string>
+    <string name="matches_item_tv4">بطولات الدوري</string>
+    <string name="leg_tv1">leagues</string>
+    <string name="ratede">أعلى التصنيفات</string>
+
+</resources>
